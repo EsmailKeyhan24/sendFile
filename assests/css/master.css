@@ -21,3 +21,17 @@
         }
     }
 }
+
+
+#about_us{
+    width: 100%;
+    height: 95vh;
+    background-color: darkblue;
+    clip-path:polygon(0 0,100% 0,100% 80%,0 100%);
+    display: flex;
+    >*{
+        width: 50%;
+        height: 100%;
+        border:7px solid orange;
+    }
+}
